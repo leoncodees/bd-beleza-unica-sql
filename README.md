@@ -22,14 +22,19 @@ Toda a estrutura foi planejada seguindo boas práticas de modelagem e normaliza�
 🧱 **Estrutura do Repositório**
 
 Os arquivos estão organizados por ordem de execução e propósito:
+	
 	•	01_criacao_tabelas.sql
 Contém toda a estrutura do banco de dados, com criação de entidades, chaves primárias e estrangeiras, relacionamentos e regras de integridade.
+	
 	•	02_inserts.sql
 Povoamento inicial das tabelas com dados coerentes com o minimundo.
+	
 	•	03_selects.sql
 Conjunto de consultas SQL utilizando WHERE, ORDER BY, LIMIT e JOIN.
+	
 	•	04_updates_deletes.sql
 Atualização e remoção de registros com condições, mantendo integridade das FK.
+	
 	•	init.sql
 Arquivo completo contendo criação das tabelas + inserts + consultas base.
 
