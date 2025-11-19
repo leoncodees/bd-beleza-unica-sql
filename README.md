@@ -35,6 +35,7 @@ Arquivo completo contendo criação das tabelas + inserts + consultas base.
 
 
 
+
 🛠️ **Tecnologias Utilizadas**
 	•	MySQL
 	•	OneCompiler / DB-Fiddle (execução e testes)
