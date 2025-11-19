@@ -1,85 +1,110 @@
-# 💅 Banco de Dados — Salão de Beleza “Beleza Única”
-Projeto desenvolvido para a disciplina de **Modelagem e Manipulação de Dados**, contendo a criação e manipulação de um banco de dados relacional completo, seguindo boas práticas de SQL, integridade referencial e organização profissional de repositório.
+💅 Banco de Dados — Salão de Beleza “Beleza Única”
 
-## 📌 **Objetivo do Projeto**
-Construir um banco de dados funcional para o salão de beleza fictício **Beleza Única**, permitindo:
+Este repositório contém o projeto completo de criação e manipulação de um banco de dados relacional para o salão de beleza fictício Beleza Única, atendendo a todos os requisitos da atividade, incluindo modelagem lógica, inserção de dados, consultas, atualizações e exclusões.
 
-- Cadastro de clientes  
-- Registro de profissionais  
-- Controle de serviços  
-- Agendamentos  
-- Pagamentos  
-- Produtos utilizados nos procedimentos  
-
-Além disso, o projeto demonstra **manipulação real de dados (DML)** usando INSERT, SELECT, UPDATE e DELETE.
-
-## 🧱 **Estrutura do Repositório**
-
-O repositório está organizado em arquivos separados, seguindo uma ordem lógica de execução:
-📁 bd-beleza-unica-sql
-├── 01_criacao_tabelas.sql        → Criação de todas as tabelas do banco
-├── 02_inserts.sql                → Inserção de dados iniciais (povoamento)
-├── 03_selects.sql                → Consultas SELECT com WHERE, ORDER BY, JOIN e LIMIT
-├── 04_updates_deletes.sql        → Comandos UPDATE e DELETE com integridade
-├── init.sql                      → Script completo com todas as etapas integradas
-└── selects.sql                   → Consultas adicionais (arquivo auxiliar)
---
-
-## 🛠️ **Tecnologias Utilizadas**
-- **MySQL**
-- OneCompiler / DB-Fiddle (para execução online)
-- Git & GitHub (versionamento e entrega)
-
-
-## 🧪  Como Executar
-Você pode copiar cada arquivo e executar em qualquer ambiente MySQL:
-
-1️⃣ **Criação das tabelas**
-```bash
-Execute o arquivo 01_criacao_tabelas.sql
-
-2️⃣ **Inserção dos dados**
-
-Execute o arquivo 02_inserts.sql
-
-3️⃣ Consultas
- Execute o arquivo 03_selects.sql
-
-4️⃣ Updates e Deletes
-Execute o arquivo 04_updates_deletes.sql
-
-Ou, se preferir:
-Execute o arquivo init.sql (completo)
-
-📊 Modelagem Aplicada
-
-O projeto segue rigorosamente:
-	•	Integridade referencial
-	•	Chaves primárias e estrangeiras
-	•	Normalização até 3FN
-	•	Relacionamentos 1:N e N:N
+O objetivo é demonstrar domínio de SQL, integridade referencial, normalização e organização profissional de scripts.
 
 
 
-🔎 Exemplos de Consultas Implementadas
-	•	Clientes em ordem alfabética
-	•	Serviços acima de R$ 50
+📌 Sobre o Projeto
+
+O projeto foi construído em MySQL e representa um banco de dados realista contendo:
+	•	Cadastro de clientes
+	•	Cadastro de profissionais
+	•	Catálogo de serviços
+	•	Controle de agendamentos
+	•	Registro de pagamentos
+	•	Produtos utilizados nos atendimentos
+	•	Relacionamento N:N entre agendamentos e produtos
+
+Toda a estrutura foi planejada seguindo boas práticas de modelagem e normalização.
+
+
+
+🧱 Estrutura do Repositório
+
+Os arquivos estão organizados por ordem de execução e propósito:
+	•	01_criacao_tabelas.sql
+Contém toda a estrutura do banco de dados, com criação de entidades, chaves primárias e estrangeiras, relacionamentos e regras de integridade.
+	•	02_inserts.sql
+Povoamento inicial das tabelas com dados coerentes com o minimundo.
+	•	03_selects.sql
+Conjunto de consultas SQL utilizando WHERE, ORDER BY, LIMIT e JOIN.
+	•	04_updates_deletes.sql
+Atualização e remoção de registros com condições, mantendo integridade das FK.
+	•	init.sql
+Arquivo completo contendo criação das tabelas + inserts + consultas base.
+
+
+
+🛠️ Tecnologias Utilizadas
+	•	MySQL
+	•	OneCompiler / DB-Fiddle (execução e testes)
+	•	Git & GitHub (versionamento)
+	•	Ambiente web de consultas e depuração
+
+
+
+▶️ Como Executar o Projeto
+
+1️⃣ Execute a criação das tabelas:
+
+01_criacao_tabelas.sql
+
+2️⃣ Insira os dados:
+
+02_inserts.sql
+
+3️⃣ Teste as consultas:
+
+03_selects.sql
+
+4️⃣ Realize updates e deletes:
+
+04_updates_deletes.sql
+
+
+
+👉 OU execute tudo de uma vez:
+
+init.sql
+
+
+
+🔎 Consultas Implementadas
+
+As consultas SELECT incluem:
+	•	Listagem ordenada de clientes
+	•	Serviços com valor acima de um limite
 	•	JOIN entre clientes, agendamentos e serviços
-	•	Serviços mais rápidos (LIMIT)
-	•	Produtos utilizados em cada atendimento
+	•	Listagem apenas de serviços rápidos
+	•	Listagem de produtos utilizados em cada atendimento
+
+Também foram implementados UPDATE e DELETE garantindo integridade referencial.
 
 
 
-✔️ Requisitos Atendidos (Checklist da Professora)
-	•	Script de criação das tabelas
-	•	Script de INSERTs
-	•	Script com consultas SELECT
-	•	Script com UPDATE e DELETE
-	•	Repositório público no GitHub
-	•	Organização profissional por arquivos
-	•	README.md completo
+✔️ Checklist da Atividade
+	•	Criação completa das tabelas
+	•	Povoamento (INSERTs)
+	•	SELECTs com WHERE, ORDER BY, LIMIT, JOIN
+	•	UPDATEs e DELETEs com condições
+	•	Scripts separados e organizados
+	•	Repositório GitHub público
+	•	README profissional e completo
+	•	Execução testada e validada sem erros
 
-👩‍💻 Desenvolvido por:
+
+
+👩‍💻 Autoria
 
 Munique Castilho Leon Martinez
-Curso: Análise e Desenvolvimento de Sistemas — Cruzeiro do Sul
+Estudante de Análise e Desenvolvimento de Sistemas
+Cruzeiro do Sul — EAD
+
+
+
+🏁 Conclusão
+
+Este projeto demonstra o ciclo completo de construção e manipulação de um banco de dados real, desde a modelagem até a execução prática da linguagem SQL.
+A entrega contém todos os scripts organizados, limpos, comentados e funcionais, atendendo plenamente aos requisitos da disciplina.
