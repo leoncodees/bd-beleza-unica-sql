@@ -1,12 +1,10 @@
-💅 Banco de Dados — Salão de Beleza “Beleza Única”
+💅 **Banco de Dados — Salão de Beleza “Beleza Única”**
 
 Este repositório contém o projeto completo de criação e manipulação de um banco de dados relacional para o salão de beleza fictício Beleza Única, atendendo a todos os requisitos da atividade, incluindo modelagem lógica, inserção de dados, consultas, atualizações e exclusões.
-
 O objetivo é demonstrar domínio de SQL, integridade referencial, normalização e organização profissional de scripts.
 
 
-
-📌 Sobre o Projeto
+📌 **Sobre o Projeto**
 
 O projeto foi construído em MySQL e representa um banco de dados realista contendo:
 	•	Cadastro de clientes
@@ -21,7 +19,7 @@ Toda a estrutura foi planejada seguindo boas práticas de modelagem e normaliza�
 
 
 
-🧱 Estrutura do Repositório
+🧱 **Estrutura do Repositório**
 
 Os arquivos estão organizados por ordem de execução e propósito:
 	•	01_criacao_tabelas.sql
@@ -37,7 +35,7 @@ Arquivo completo contendo criação das tabelas + inserts + consultas base.
 
 
 
-🛠️ Tecnologias Utilizadas
+🛠️ **Tecnologias Utilizadas**
 	•	MySQL
 	•	OneCompiler / DB-Fiddle (execução e testes)
 	•	Git & GitHub (versionamento)
@@ -45,7 +43,7 @@ Arquivo completo contendo criação das tabelas + inserts + consultas base.
 
 
 
-▶️ Como Executar o Projeto
+▶️ **Como Executar o Projeto**
 
 1️⃣ Execute a criação das tabelas:
 
@@ -65,13 +63,13 @@ Arquivo completo contendo criação das tabelas + inserts + consultas base.
 
 
 
-👉 OU execute tudo de uma vez:
+👉 **OU execute tudo de uma vez:**
 
 init.sql
 
 
 
-🔎 Consultas Implementadas
+🔎 **Consultas Implementadas**
 
 As consultas SELECT incluem:
 	•	Listagem ordenada de clientes
@@ -84,7 +82,7 @@ Também foram implementados UPDATE e DELETE garantindo integridade referencial.
 
 
 
-✔️ Checklist da Atividade
+✔️ **Checklist da Atividade**
 	•	Criação completa das tabelas
 	•	Povoamento (INSERTs)
 	•	SELECTs com WHERE, ORDER BY, LIMIT, JOIN
@@ -96,7 +94,7 @@ Também foram implementados UPDATE e DELETE garantindo integridade referencial.
 
 
 
-👩‍💻 Autoria
+👩‍💻 **Autoria**
 
 Munique Castilho Leon Martinez
 Estudante de Análise e Desenvolvimento de Sistemas
@@ -104,7 +102,7 @@ Cruzeiro do Sul — EAD
 
 
 
-🏁 Conclusão
+🏁 **Conclusão**
 
 Este projeto demonstra o ciclo completo de construção e manipulação de um banco de dados real, desde a modelagem até a execução prática da linguagem SQL.
 A entrega contém todos os scripts organizados, limpos, comentados e funcionais, atendendo plenamente aos requisitos da disciplina.
