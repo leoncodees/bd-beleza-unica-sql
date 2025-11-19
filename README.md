@@ -31,14 +31,14 @@ O repositório está organizado em arquivos separados, seguindo uma ordem lógic
 - Git & GitHub (versionamento e entrega)
 
 
-## 🧪Como Executar
+## 🧪  Como Executar
 Você pode copiar cada arquivo e executar em qualquer ambiente MySQL:
 
-1️⃣ Criação das tabelas
+1️⃣ **Criação das tabelas**
 ```bash
 Execute o arquivo 01_criacao_tabelas.sql
 
-2️⃣ Inserção dos dados
+2️⃣ **Inserção dos dados**
 
 Execute o arquivo 02_inserts.sql
 
